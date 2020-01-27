@@ -1,0 +1,39 @@
+.header{
+    position: fixed;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+    padding: 20px 10px;
+    margin: 0;
+    background-image: url('../Utils/assets/Images/HeaderImage.jpg');
+    text-align: center;
+    z-index: 90;
+}
+
+.header-disabled {
+    transition: height 1s;
+    height: 4vh;
+}
+
+.header-txt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-shadow: 4px 3px #000000;
+    cursor: pointer;
+}
+
+.header-txt:hover{
+    color: #FCC700;
+    text-shadow: 5px 4px #000000;
+}
+
+.header-btn-div {
+    height: 60vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-end;
+}

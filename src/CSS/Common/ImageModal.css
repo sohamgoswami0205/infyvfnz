@@ -1,0 +1,44 @@
+.modalWindow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    animation: ease-in;
+    animation-delay: 20ms;
+}
+
+.imgContainer {
+    margin: auto 0;
+}
+
+div.imgContainer img {
+    z-index: 101;
+}
+
+.closeModalBtn{
+    position: fixed;
+    top: 50vh;
+    right: 50px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    outline: none;
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+
+.closeModalBtn:hover{
+    transform: scale(1.2) rotate(45deg);
+}

@@ -1,0 +1,24 @@
+.photoViewerBody{
+    margin: 20px 0px;
+    margin-top: 13vh;
+    text-align: center;
+    background-image: url("../Utils/assets/Images/BodyImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+.photoViewerContainer{
+    background: rgba(255, 255, 255, 0.6);
+}
+
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    margin: 20px 10px;
+    width: 96%;               
+    background-color:#ccc;
+    height: 1px;
+}

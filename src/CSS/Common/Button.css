@@ -1,0 +1,33 @@
+.btn{
+    color: #FFFFFF;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    outline: none;
+    min-width: 50px;
+    max-width: 150px;
+    outline: none;
+    box-shadow: 3px 2px #FFFFFF;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background: #e7e7e7 !important;
+    font: #c8c8c8 !important;
+    cursor: not-allowed !important;
+}
+
+.btn:hover:enabled{
+    transform: scale(1.2);
+    color: #FCC700;
+    box-shadow: 4px 3px #FCC700;
+}
+
+.btn-default{
+    background: #000000;
+}
+
+.btn-danger{
+    background: #FE0000;
+}

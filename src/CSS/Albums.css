@@ -1,0 +1,11 @@
+.albumContainer{
+    margin: 10px 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.albumGallery{
+    max-height: 71.25vh;
+    overflow: auto;
+}
